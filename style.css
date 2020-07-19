@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar-brand { 
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.navbar-brand:hover {
+    color: #e673b0 !important;
+
+}
+.logo{
+    height: 50px;
+    padding-right: 20px;
+}
+.nav-link:hover{
+    color: #e673b0 !important;
+}
+* Versi Desktop */
+@media (min-width: 992px) { 
+    /* Navbar */
+    .navbar-brand{
+        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.9);
+    }
+
+    .nav-link {  
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-right: 30px;
+        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.9);
+    }
+    
+    .home {
+        font-weight: 500;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #e673b0;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -10px;
+    }
