@@ -23,6 +23,7 @@
     height: 1050px;
     margin: 10px;
     background-image: linear-gradient(to right, rgba(227, 234, 248,1), rgba(252, 231, 246, 0));
+
 }
 
 /* konten teks */
@@ -86,6 +87,7 @@
     font-weight: 200px;
     text-align: center;
 }
+
 /* Profile CEO&Founder */
 .figure1 img{
     margin-top: 160px;
@@ -157,11 +159,14 @@
     font-size: 10px;
     font-weight: lighter;
 }
+
+
 /* Footer */
 .footer{
     margin-top: 100px;
 }
-* Versi Desktop */
+
+/* Versi Desktop */
 @media (min-width: 992px) { 
     /* Navbar */
     .navbar-brand{
@@ -178,7 +183,6 @@
     .home {
         font-weight: 500;
     }
-    
     .nav-link:hover::after{
         content: '';
         display: block;
@@ -188,7 +192,7 @@
         padding-bottom: 5px;
         margin-bottom: -10px;
     }
-    
+
     /* Jumbotron */
     .jumbotron {
         height: 640px;
@@ -262,6 +266,7 @@
         font-weight: 200px;
         text-align: center;
     }
+    
     .figure1 img{
         margin-top: 160px;
         width: 200px;
