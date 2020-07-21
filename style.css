@@ -86,6 +86,81 @@
     font-weight: 200px;
     text-align: center;
 }
+/* Profile CEO&Founder */
+.figure1 img{
+    margin-top: 160px;
+    width: 90px;
+    height: 90px;
+}
+
+.figure1 h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.figure1 p{
+    margin-top: 45px;
+    color: #acacac;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.figure2 img{
+    margin-top: 160px;
+    width: 90px;
+    height: 90px;
+}
+
+.figure2 h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.figure2 p{
+    margin-top: 25px;
+    color: #acacac;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.figure3 img{
+    width: 90px;
+    height: 90px;
+    margin-top: 160px;
+}
+
+.figure3 h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.figure3 p{
+    color: #acacac;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.figure4 img{
+    margin-top: 160px;
+    width: 90px;
+    height: 90px;
+}
+
+.figure4 h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.figure4 p{
+    margin-top: 25px;
+    color: #acacac;
+    font-size: 10px;
+    font-weight: lighter;
+}
+/* Footer */
+.footer{
+    margin-top: 100px;
+}
 * Versi Desktop */
 @media (min-width: 992px) { 
     /* Navbar */
@@ -187,4 +262,75 @@
         font-weight: 200px;
         text-align: center;
     }
+    .figure1 img{
+        margin-top: 160px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .figure1 h4{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .figure1 p{
+        color: #acacac;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .figure2{
+        margin-right: 45px;
+    }
+    .figure2 img{
+        margin-top: 160px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .figure2 h4{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .figure2 p{
+        margin-top: 0px;
+        color: #acacac;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    
+    .figure3 img{
+        margin-top: 160px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .figure3 h4{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .figure3 p{
+        color: #acacac;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    
+    .figure4 img{
+        margin-top: 160px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .figure4 h4{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .figure4 p{
+        margin-top: 0px;
+        color: #acacac;
+        font-size: 16px;
+        font-weight: lighter;
+    }    
 }
